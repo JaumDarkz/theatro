@@ -1,0 +1,44 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  text-align: center;
+  padding-bottom: 100px;
+  background-image: url('./assets/circle.svg');
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 90%;
+
+  .title {
+    color: #DD9C1B;
+    font-weight: 700;
+    font-size: 45px;
+  }
+
+  .textContainer {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+
+    .text {
+      font-size: 22px;
+      font-weight: 500;
+    }
+
+    .minorText {
+      width: 70%;
+      font-size: 22px;
+      font-weight: 500;
+    }
+
+    .description {
+      font-weight: 300;
+      text-align: left;
+    }
+  }
+}
