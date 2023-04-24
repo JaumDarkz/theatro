@@ -1,3 +1,149 @@
 .container {
-  
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  margin-top: -100px;
+
+  .leftContainer {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('./assets/bg.svg');
+    background-repeat: no-repeat;
+
+    @media (max-width: 1600px) {
+      background-size: 92%;
+    }
+
+    .textContainer {
+      width: 500px;
+      margin-left: 200px;
+
+      @media (max-width: 1400px) {
+        width: 400px;
+        margin-left: 160px;
+      }
+
+      .title {
+        color: black;
+        font-size: 50px;
+        font-weight: 700;
+        margin-bottom: 60px;
+
+        @media (max-width: 1400px) {
+          font-size: 40px;
+          margin-bottom: 50px;
+        }
+      }
+
+      .description {
+        color: black;
+        font-weight: 500;
+        font-size: 24px;
+
+        @media (max-width: 1400px) {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  .rightContainer {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .stagesContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 60px;
+
+      @media (max-width: 1400px) {
+        gap: 40px;
+      }
+
+      .stage1 {
+        display: flex;
+        align-items: center;
+        margin-left: -200px;
+
+        @media (max-width: 1400px) {
+          margin-left: -160px;
+        }
+
+        .text {
+          width: 400px;
+          margin-left: 30px;
+          font-weight: 300;
+        }
+      }
+
+      .stage2 {
+        display: flex;
+        align-items: center;
+        margin-left: -100px;
+
+        @media (max-width: 1400px) {
+          margin-left: -50px;
+        }
+
+        .text {
+          width: 400px;
+          margin-left: 30px;
+          font-weight: 300;
+        }
+      }
+
+      .stage3 {
+        display: flex;
+        align-items: center;
+        margin-left: -50px;
+
+        @media (max-width: 1400px) {
+          margin-left: -35px;
+        }
+
+        .text {
+          width: 400px;
+          margin-left: 30px;
+          font-weight: 300;
+        }
+      }
+
+      .stage4 {
+        display: flex;
+        align-items: center;
+        margin-left: -100px;
+
+        @media (max-width: 1400px) {
+          margin-left: -80px;
+        }
+
+        .text {
+          width: 400px;
+          margin-left: 30px;
+          font-weight: 300;
+        }
+      }
+
+      .stage5 {
+        display: flex;
+        align-items: center;
+        margin-left: -200px;
+
+        @media (max-width: 1400px) {
+          margin-left: -220px;
+        }
+
+        .text {
+          width: 400px;
+          margin-left: 30px;
+          font-weight: 300;
+        }
+      }
+    }
+  }
 }
